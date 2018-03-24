@@ -13,13 +13,13 @@ import sys
  
 def main(argv):
     #list all devices
-    devices = pcapy.findalldevs()
-    print devices
+    #devices = pcapy.findalldevs()
+    #print devices
      
     #ask user to enter device name to sniff
-    print "Available devices are :"
-    for d in devices :
-        print d
+    #print "Available devices are :"
+    #for d in devices :
+    #    print d
      
     #dev = raw_input("Enter device name to sniff : ")
     #dev = "enp0s25"
